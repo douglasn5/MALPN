@@ -1,0 +1,129 @@
+.btn-viewAll {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn-viewAll-button {
+    width: 228px;
+    height: 50px;
+    border: 2px solid #BB83A7;
+    outline: #BB83A7;
+    background-color: #fff;
+    font-size: clamp(1rem, 1rem + 1vw, 1.6rem);
+    letter-spacing: 0.9px;
+    color: #BB83A7;
+    font-weight: 700;
+    margin: 64px 0 29px 0;
+}
+
+.btn-viewAll-button:hover {
+    background-color: #fff0f5;
+}
+
+.bestSellers-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bestSeller-content-inner {
+    max-width: 64.4rem;
+    height: 33.7rem;
+    background: #F6F4F2;
+    padding: 4rem 3rem 3rem 4rem;
+}
+
+.freeship {
+    color: #BB83A7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.125rem;
+}
+
+.best-txt > h3 {
+    color: #222;
+    font-size: 2.56rem;
+    font-weight: 400;
+    font-family: 'Noto Serif Georgian', serif;
+}
+
+.best-txt > h3 > span {
+    text-decoration: underline;
+    text-decoration-color: #BB83A7;
+}
+
+.txt-best {
+    color: #454545;
+    font-family: 'Noto Serif Georgian', serif;
+    font-size: .8rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.375rem;
+}
+
+.view {
+    color: #BB83A7;
+    text-align: center;
+    font-family: 'Noto Serif Georgian', serif;
+    font-size: .95rem;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: .1125rem;
+    text-transform: uppercase;
+}
+
+.bestSellers-content .box {
+    min-width: 32.2rem;
+    height: 33.7rem;
+    position: relative;
+    filter:brightness(50%)
+}
+
+.box:hover {
+    filter: brightness(100%);
+}
+
+.box-5 {
+    position: relative;
+    filter:brightness(50%)
+}
+
+.box-5:hover {
+    filter: brightness(100%);
+}
+
+.box-container {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    left: 0px;
+}
+
+.btn-box {
+    width: 8.62rem;
+    height: 3.56rem;
+    border: 1.7px solid #fff;
+    color: #BB83A7;
+    text-align: center;
+    font-family: georgia;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: .06rem;
+    font-style: normal;
+    opacity: .6;
+}
+
+.box-title {
+    color: #FFF;
+    font-family: georgia;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}

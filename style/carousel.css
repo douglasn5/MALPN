@@ -1,0 +1,19 @@
+.carousel__title {
+    font-family: 'Noto Serif Georgian', serif;
+    margin: 1.5rem;
+    font-size: clamp(1rem, 1rem + 2vw, 4.1rem);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.swiper-slide {
+    width: 100vw;
+    padding:0 4.5rem 0 4.5rem;
+
+}
+
+.swiper-slide img {
+    width: 100%;
+    border: 2px solid #D2D2D2;
+    outline: #D2D2D2;
+}

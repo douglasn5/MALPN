@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- CSS & JS -->
+        <link rel="stylesheet" href="normalize.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style/main.css" />
+        <link rel="stylesheet" href="style/header.css" />
+        <link rel="stylesheet" href="style/banner.css" />
+        <link rel="stylesheet" href="style/carousel.css" />
+        <script defer src="js/scripts.js"></script>
+
+        <!-- ICONS -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+
+        <!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+        <!-- BOOTSTRAP -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+            crossorigin="anonymous" />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"
+            defer></script>
+
+        <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon" />
+        <title>Malpn | Semijoias</title>
+    </head>
+    <body>
+        <header>
+            <div class="header_banner">
+                <span class="banner__content"
+                    >GANHE <b>10% DE DESCONTO</b> SE CADASTRANDO E BAIXANDO O NOSSO APP |
+                    <b class="banner-style">FRETE GRÁTIS ACIMA DE R$ 200.</b></span
+                >
+            </div>
+            <nav class="navbar navbar-expand-md bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/logo/logo-diamond-painted.svg" alt="COMPANY NAME MALPN" width="132" />
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-around">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider" />
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider" />
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Another Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Another Link</a>
+                            </li>
+                        </ul>
+                        <div class="search-and-icons">
+                            <form class="d-flex mb-2 me-4" role="search">
+                                <input class="form-control me-2" type="search" aria-label="Search" />
+                            </form>
+                            <div class="user-icons d-flex mb-2">
+                                <a href="#">
+                                    <div class="account"><i class="bi bi-person btp-icon"></i></div>
+                                </a>
+                                <a href="#">
+                                    <div class="wishlist"><i class="bi bi-heart btp-icon"></i></div>
+                                </a>
+                                <a href="#">
+                                    <div class="cart"><i class="bi bi-cart3 btp-icon"></i></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contact-info">
+                            <p>+9876543210 | +1234567890</p>
+                            <p><a href="mailto:">contact@domainname.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="header__publish">
+                <span class="banner__content">PARCELE TUDO EM ATÉ<b class="header__publish font__style"> 12X SEM JUROS</b></span>
+            </div>
+        </header>
+
+        <main>
+            <section class="banner__video">
+                <video
+                    tabindex="-1"
+                    controlsList="nodownload"
+                    width="100%"
+                    height="auto"
+                    src="assets/video/jewelry.mp4"
+                    type="video/mp4"
+                    autoplay
+                    loop
+                    muted></video>
+                <div class="banner__content-video">
+                    <h2>Seja única.</h2>
+                    <h3>Qualidade superior e itens exclusivos.</h3>
+                    <button type="button" class="btn-buy">Compre agora</button>
+                    <button type="button" class="btn-banner">Descubra mais</button>
+                </div>
+            </section>
+
+            <section class="carousel">
+                <h2 class="carousel__title">
+                    <svg
+                        width="78"
+                        height="17"
+                        viewBox="0 0 78 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="78" height="17" fill="url(#pattern0)" />
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_75_1015" transform="matrix(0.0103785 0 0 0.047619 -0.0189255 0)" />
+                            </pattern>
+                            <image
+                                id="image0_75_1015"
+                                width="100"
+                                height="21"
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAVCAYAAACwnEswAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAiZJREFUeNrsWdFtwjAQLRX/eAQ6QZMJIBMUJihMQJgAMgFkAmACYALoAiSdoGzQsEHvomfJNSYJFClIvSddU0w4oXt+786hcTgcngT1wff9/JokyYAux6aU5GHwxn+epQ61gRWxIGW08bpH0RVC6sMRpBAniYc1JYRUg+Ldi7gX9hRD5F5QZBSp9JDL4OK/w0qU9V5KEVNsUMgqYGsaUXhWnj4IYWwbMmU5MaMIUTDeySesdyyVMBkRxbxKv4BNRcipQA6TtELuoRByjgUKNUbhXPYVopDK2OlDXF1K24G8F4eiFN6PaQRe/pceYvaAoghhURE+5+E1F2yNPFzQKYo7N+5LsG5jhGvksjciIQOZ+djbRDJV0VNvQcvyzWtR9fvdE2ujiKYSPo2iZ1DRB1TF90xQWJdajgWHw1SPv80LMlOOIu6v2I3mZ0/40reSl9ZIYqvCPRt8xwU2rVbLGArqY61dkidXj/SQ32BrCixi9XSkraVoqppCJfZoW6QOPojw5vmm/xtyDnEr3FSnDgUr65YQEhgE8L1fWFclU91eHp2cYwWV6CY/hf2EJZOXbe2+NQpPQIy2NU1Oj9Sxw1gci2VdHnsHjvXgij5qWt6sRFX6LPNKliXnkIKDnD5VpyjY5g/52sjZMZo729oW+WdQTSyE1P94Zm0MCpk8y6oPnnGC76NXSVOvmRC2wYAPhnpRFFIflhz6J1z0EvkJ94GQj70/AgwALXCfuNJvz+cAAAAASUVORK5CYII=" />
+                        </defs>
+                    </svg>
+                    recomendados
+                    <svg
+                        width="78"
+                        height="17"
+                        viewBox="0 0 78 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="78" height="17" transform="matrix(-1 0 0 1 78 0)" fill="url(#pattern0)" />
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_75_1016" transform="matrix(0.0103785 0 0 0.047619 -0.0189255 0)" />
+                            </pattern>
+                            <image
+                                id="image0_75_1016"
+                                width="100"
+                                height="21"
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAVCAYAAACwnEswAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAiZJREFUeNrsWdFtwjAQLRX/eAQ6QZMJIBMUJihMQJgAMgFkAmACYALoAiSdoGzQsEHvomfJNSYJFClIvSddU0w4oXt+786hcTgcngT1wff9/JokyYAux6aU5GHwxn+epQ61gRWxIGW08bpH0RVC6sMRpBAniYc1JYRUg+Ldi7gX9hRD5F5QZBSp9JDL4OK/w0qU9V5KEVNsUMgqYGsaUXhWnj4IYWwbMmU5MaMIUTDeySesdyyVMBkRxbxKv4BNRcipQA6TtELuoRByjgUKNUbhXPYVopDK2OlDXF1K24G8F4eiFN6PaQRe/pceYvaAoghhURE+5+E1F2yNPFzQKYo7N+5LsG5jhGvksjciIQOZ+djbRDJV0VNvQcvyzWtR9fvdE2ujiKYSPo2iZ1DRB1TF90xQWJdajgWHw1SPv80LMlOOIu6v2I3mZ0/40reSl9ZIYqvCPRt8xwU2rVbLGArqY61dkidXj/SQ32BrCixi9XSkraVoqppCJfZoW6QOPojw5vmm/xtyDnEr3FSnDgUr65YQEhgE8L1fWFclU91eHp2cYwWV6CY/hf2EJZOXbe2+NQpPQIy2NU1Oj9Sxw1gci2VdHnsHjvXgij5qWt6sRFX6LPNKliXnkIKDnD5VpyjY5g/52sjZMZo729oW+WdQTSyE1P94Zm0MCpk8y6oPnnGC76NXSVOvmRC2wYAPhnpRFFIflhz6J1z0EvkJ94GQj70/AgwALXCfuNJvz+cAAAAASUVORK5CYII=" />
+                        </defs>
+                    </svg>
+                </h2>
+
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img src="assets/img/1.jpeg" alt="Imagem de demonstrativo da joia" />
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="assets/img/2.png" alt="Imagem de demonstrativo da joia" />
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="assets/img/3.png" alt="Imagem de demonstrativo da joia" />
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="assets/img/4.png" alt="Imagem de demonstrativo da joia" />
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="assets/img/5.png" alt="Imagem de demonstrativo da joia" />
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="assets/img/6.png" alt="Imagem de demonstrativo da joia" />
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="assets/img/7.png" alt="Imagem de demonstrativo da joia" />
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="assets/img/8.png" alt="Imagem de demonstrativo da joia" />
+                        </div>
+                    </div>
+
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </section>
+
+            <div class="btn-viewAll">
+                <button type="button" class="btn-viewAll-button">VER TODOS</button>
+            </div>
+
+            <div class="banner-content-first">
+                <section class="banner-img">
+                    <div class="img-ourValues">
+                        <img class="ourValues" src="assets/img/banner/banner-content.png" alt="Smelling Girl" />
+                    </div>
+                </section>
+
+                <div class="ourValues-msg">
+                    <h3>NOSSOS<span> VALORES</span></h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est molestiae ipsa nam, sunt quibusdam quam dolorem id
+                        facilis? Commodi deleniti earum tempore harum at voluptates quam, iusto consequuntur doloremque eum!
+                    </p>
+                </div>
+            </div>
+
+            <div class="bestSellers-content">
+                <section class="bestSeller-content-inner">
+                    <div class="best-txt">
+                        <p class="freeship">FRETE GRÁTIS</p>
+                        <h3>Os mais <span>vendidos</span></h3>
+                        <p class="txt-best">
+                            Na Malpn acreditamos que você merece o melhor e que deve escolher entre qualidade, preços acessíveis e valores reais.Na Malpn, acreditamos que você merece o melhor e que não deve escolher entre qualidade, preços
+                            acessíveis e valores reais. Na Azzana, acreditamos que você merece o melhor.
+                        </p>
+                    </div>
+                    <a href="#">
+                        <span class="view">VEJA</span>
+                    </a>
+                </section>
+                <section class="box box-1">
+                        <div class="box-container">
+                            <p class="box-title">CORDÕES</p>
+                            <a href="#" class="box-links">
+                                <button class="btn-box" type="button" value="Discover">Descubra</button>
+                            </a>
+                        </div>
+                    <img src="assets/img/banner/cordao.png" alt="Cordao" />
+                </section>
+                <section class="box box-2">
+                    <div class="box-container">
+                        <p class="box-title">ANÉIS</p>
+                        <a href="#" class="box-links">
+                            <button class="btn-box" type="button" value="Discover">Descubra</button>
+                        </a>
+                    </div>
+                    <img src="assets/img/banner/anel.png" alt="ANEL" />
+                </section>
+                <section class="box box-3">
+                    <div class="box-container">
+                        <p class="box-title">BRACELETES</p>
+                        <a href="#" class="box-links">
+                            <button class="btn-box" type="button" value="Discover">Descubra</button>
+                        </a>
+                    </div>
+                    <img src="assets/img/banner/bracelete.png" alt="bracelete" />
+                </section>
+                <section class="box box-4">
+                    <div class="box-container">
+                        <p class="box-title">BRINCOS</p>
+                        <a href="#" class="box-links">
+                            <button class="btn-box" type="button" value="Discover">Descubra</button>
+                        </a>
+                    </div>
+                    <img src="assets/img/banner/brincos.png" alt="brincos" />
+                </section>
+                <section class="box-5">
+                        <div class="box-container">
+                            <p class="box-title">BRINCOS ECOLÓGICOS</p>
+                            <a href="#" class="box-links">
+                                <button class="btn-box" type="button" value="Discover">Descubra</button>
+                            </a>
+                        </div>
+                    <img src="assets/img/banner/be.png" alt="brincos ecologicos" />
+                </section>
+            </div>
+        </main>
+
+
+        
+        <footer></footer>
+
+        <!-- SwiperJS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper(".swiper", {
+                spaceBetween: 10,
+                slidesPerView: 1,
+                pagination: {
+                    el: ".swiper-pagination",
+                    type: "bullets",
+                },
+            });
+        </script>
+    </body>
+</html>
+
+<!-- https://codingyaar.com/bootstrap-e-commerce-multi-line-navbar/ -->

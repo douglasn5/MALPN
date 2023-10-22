@@ -1,0 +1,13 @@
+@import url("style/header.css");
+@import url("style/banner.css");
+@import url("style/carousel.css");
+
+:root {
+    --rose-text-video-banner: #BB83A7;
+}
+
+body {
+    max-height: 100vh;
+    max-width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+}
